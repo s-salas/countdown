@@ -4,3 +4,8 @@ html, body {
     background-color: black; /* Set background color to black */
     color: white; /* Optional: sets text color to white for contrast */
   }
+
+  body {
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+  }
