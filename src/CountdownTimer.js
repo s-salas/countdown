@@ -59,13 +59,13 @@ export const CountdownTimer = () => {
       <h1>Countdown Until Mary's Vacation</h1>
       <div>
         <p>
-          <strong>Time Remaining:</strong> {timeLeft.days} days,{" "}
+          <strong>Time Remaining:<br /></strong> {timeLeft.days} days,{" "}
           {timeLeft.hours} hours, {timeLeft.minutes} minutes, {timeLeft.seconds}{" "}
           seconds
         </p>
         <p>
           <p>
-            <strong>Seconds Remaining:</strong>{" "}
+            <strong>Seconds Remaining:</strong>{" "}<br />
             {timeLeft.totalSeconds.toLocaleString()}
           </p>
         </p>

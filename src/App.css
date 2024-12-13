@@ -1,0 +1,6 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Removes any default margin that might cause extra white space */
+    background-color: black; /* Set background color to black */
+    color: white; /* Optional: sets text color to white for contrast */
+  }

@@ -1,10 +1,7 @@
-.body {
-    background-color: #000000;
-}
-
 h1 {
     color: #ffffff;
     text-align: center;
+    margin-top: 20px;
 }
 
 p {
