@@ -69,7 +69,7 @@ export const CountdownTimer = () => {
             {timeLeft.totalSeconds.toLocaleString()}
           </p>
         </p>
-        <p id="quote">"Damn, it's 7:00 a.m." - Taylor Swift</p>
+        <p id="quote">"Damn, it's 7:00 a.m."<br />- Taylor Swift</p>
       </div>
       <img
         src={taylorImage}
