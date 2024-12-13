@@ -1,4 +1,3 @@
-import "./App.css";
 import { CountdownTimer } from "./CountdownTimer";
 
 function App() {
