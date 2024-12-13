@@ -55,7 +55,7 @@ export const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="body">
+    <div className="countdown-container">
       <h1>Countdown Until Mary's Vacation</h1>
       <div>
         <p>
