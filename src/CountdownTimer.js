@@ -56,7 +56,7 @@ export const CountdownTimer = () => {
 
   return (
     <div className="countdown-container">
-      <h1>Countdown Until Mary's Vacation</h1>
+      <h1>Countdown To Mary's Vacation</h1>
       <div>
         <p>
           <strong>Time Remaining:<br /></strong> {timeLeft.days} days,{" "}
@@ -69,6 +69,7 @@ export const CountdownTimer = () => {
             {timeLeft.totalSeconds.toLocaleString()}
           </p>
         </p>
+        <p id="quote">"Damn, it's 7:00 a.m." - Taylor Swift</p>
       </div>
       <img
         src={taylorImage}
